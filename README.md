@@ -16,6 +16,29 @@ Hypha is inspired by [intercooler.js](https://intercoolerjs.org/),
 [Unpoly](https://unpoly.com/), [htmx](https://htmx.org/),
 and my previous project [Rhizome](https://github.com/nxjfxu/rhizome).
 
+
+## Setting Up
+
+```html
+<script type="module" src="./hypha.min.js"></script>
+```
+
+Hypha is also available on [unpkg](https://unpkg.com):
+```html
+<script type="module" src="https://unpkg.com/@nxjfxu/hypha@latest/hypha.min.js"></script>
+```
+
+### Using NPM
+
+```bash
+npm i @nxjfxu/hypha
+```
+Then, in your JavaScript file:
+```javascript
+import "@nxjfxu/hypha";
+```
+
+
 ## Guide
 ### Basics
 
