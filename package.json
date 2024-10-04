@@ -1,0 +1,25 @@
+{
+  "name": "@nxjfxu/hypha",
+  "version": "1.0.0",
+  "description": "Hypermedia-driven progressive enhancement",
+  "main": "hypha.js",
+  "scripts": {
+    "minify": "uglifyjs --compress --toplevel --mangle reserved=['reloadFragments'] -o hypha.min.js hypha.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nxjfxu/hypha.git"
+  },
+  "keywords": [
+    "hypermedia"
+  ],
+  "author": "Junfeng Xu <xu.junfeng@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nxjfxu/hypha/issues"
+  },
+  "homepage": "https://github.com/nxjfxu/hypha#readme",
+  "devDependencies": {
+    "uglify-js": "^3.19.3"
+  }
+}
