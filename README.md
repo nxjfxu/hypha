@@ -1,6 +1,8 @@
 # Hypha
 Hypermedia Enhancement in 132 Lines.
 
+[Guide](docs/guide.md) | [Reference](docs/reference.md)
+
 Hypha is a JavaScript library that lets you 
 - Click on a hyperlink to dynamically load the linked resource to the current page.
 - Submit a form and automagically update all relevant resources currently displayed.
@@ -37,9 +39,4 @@ Then, in your JavaScript file:
 ```javascript
 import "@nxjfxu/hypha";
 ```
-
-
-## Documentation
-
-[Guide](docs/guide.md)
 
